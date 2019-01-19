@@ -1,6 +1,6 @@
 {
   "name": "drone-rocket",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Drone plugin for sending Rocket.Chat notifications (can also be used standalone)",
   "main": "distribution/RocketChatWebhook.js",
   "scripts": {
@@ -32,8 +32,8 @@
     "url": "https://github.com/milewski/drone-rocket/issues"
   },
   "files": [
-    "distribution/*.js",
-    "declarations/source/Installer.d.ts"
+    "distribution/**/*.js",
+    "source/**/*.ts"
   ],
   "devDependencies": {
     "@types/got": "^9.3.0",

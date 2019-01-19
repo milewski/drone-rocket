@@ -45,13 +45,13 @@ steps:
             - production
 ```
 
-# Available options
+## Available options
 
 See [source/interfaces/OptionsInterface.d.ts](source/interfaces/OptionsInterface.d.ts)
 
-# Environment Reference
+## Environment Reference
 
-https://docs.drone.io/reference/environ/
+[https://docs.drone.io/reference/environ/](https://docs.drone.io/reference/environ/)
 
 ## License 
 
