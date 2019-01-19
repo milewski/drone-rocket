@@ -14,6 +14,8 @@ name: default
 steps:
 - name: notification
   image: rmilewski/drone-rocket:latest
+  when:
+      status: [ success, failure ]
   settings:
     webhook:
       from_secret: rocket_chat_webhook
@@ -41,8 +43,6 @@ steps:
           DRONE_COMMIT_BRANCH:
             - master
             - production
-    when:
-      status: [ success, failure ]
 ```
 
 # Available options
