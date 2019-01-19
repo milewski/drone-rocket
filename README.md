@@ -1,6 +1,11 @@
 # drone-rocket
 
-basic `.drone.yml` example
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d67ae762fd2b4e488103e9824bbe1320)](https://www.codacy.com/app/milewski/drone-rocket)
+[![](https://img.shields.io/docker/automated/rmilewski/drone-rocket.svg)](https://hub.docker.com/r/rmilewski/drone-rocket)
+[![](https://images.microbadger.com/badges/image/rmilewski/drone-rocket.svg)](https://hub.docker.com/r/rmilewski/drone-rocket)
+[![](https://img.shields.io/github/license/milewski/drone-rocket.svg)](LICENSE)
+
+Basic `.drone.yml` example
 
 ```yaml
 kind: pipeline
@@ -39,3 +44,15 @@ steps:
     when:
       status: [ success, failure ]
 ```
+
+# Available options
+
+See [source/interfaces/OptionsInterface.d.ts](source/interfaces/OptionsInterface.d.ts)
+
+# Environment Reference
+
+https://docs.drone.io/reference/environ/
+
+## License 
+
+[MIT](LICENSE) © [Rafael Milewski](https://github.com/milewski)
